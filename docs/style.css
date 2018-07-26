@@ -18,6 +18,11 @@ text-align: right;
 color: rgb(10, 145, 122);
 padding: 3%;
 }
+#modal{
+background-color: grey;
+font-family: 'Quicksand', sans-serif;
+
+}
 .iconosrrss{
   text-align: center;
 }
