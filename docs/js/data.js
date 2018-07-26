@@ -59,7 +59,7 @@ let infowindow;
 
 
    // fetch
-   const inputText = document.querySelector('input');
+   /*const inputText = document.querySelector('input');
 const containerTitle = document.getElementById('title');
 const containerYear = document.getElementById('year');
 const containerRuntime = document.getElementById('runtime');
@@ -87,4 +87,4 @@ const containerImage = document.getElementById('img');
    containerRuntime.innerHTML = data.Runtime;
    containerImage.innerHTML= `<img src ="${data.Poster}">`;
 
- }
+ }*/
