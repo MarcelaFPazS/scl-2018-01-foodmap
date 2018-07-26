@@ -23,12 +23,13 @@
   <!-- Página de inicio-->
   <div class="container" id="container">
   <section id="section-one">
-      <nav class="navbar navbar-light bg-light">
-          <a class="navbar-brand" href="#">
-            <img src="../src/img/img009(isotipo).png" width="65" height="50" class="d-inline-block align-top" alt="">
-            FoodMap
-          </a>
-        </nav>
+    <!-- Image and text -->
+<nav class="navbar navbar-light bg-light">
+    <a class="navbar-brand" href="#">
+      <img src="../src/img/img009(isotipo).png" width="65" height="50" class="d-inline-block align-top" alt="">
+      Foodmap 
+    </a>
+  </nav>
   </section>
  <section id="carrusel">
     <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
@@ -71,6 +72,7 @@
                 <span aria-hidden="true">&times;</span>
               </button>
               <h4 class="modal-title" id="myModalLabel">Restorant</h4>
+              <div class="widget_wrap" style="width:320px;height:797px;display:inline-block;"><iframe src="https://www.zomato.com/widgets/res_search_widget.php?city_id=83&theme=red&widgetType=small&sort=popularity" style="position:relative;width:100%;height:100%;" border="0" frameborder="0"></iframe></div>
             </div>
             <div class="modal-body">
              ¿Qué comer?
@@ -82,17 +84,14 @@
   <section>
       <div>
 
-<a href="#" data-toggle="modal" data-target="#miModal">
-  Opciones
+<a href="#" data-toggle="modal" data-target="#miModal" style="font-size: 150%;color: grey;">
+  Busqueda Zomato
 </a>
           <p id ="title"></p>
           <p id ="year"></p>
           <p id ="runtime"></p>
           <div id ="img"></div>
         </div>
-  </section>
-  <section>
-      <div class="widget_wrap" style="width:320px;height:797px;display:inline-block;"><iframe src="https://www.zomato.com/widgets/res_search_widget.php?city_id=83&theme=red&widgetType=small&sort=popularity" style="position:relative;width:100%;height:100%;" border="0" frameborder="0"></iframe></div>
   </section>
   <section>
 <footer class="footer">
