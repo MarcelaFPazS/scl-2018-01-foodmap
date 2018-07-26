@@ -27,6 +27,9 @@ padding: 3%;
   float: right;
   margin: auto;
 }
+#splash{
+  background-color: white;
+}
 .footer{
   background-color: rgb(37, 37, 37);
   color: white;
@@ -43,6 +46,11 @@ padding: 3%;
   margin-top: 5%;
   margin-bottom: 5%;
 }
+/*===============================================================================*/
+.container{
+  display: none;
+}
+/*===============================================================================*/
  /* para recargar la pagina*/
 .preload{
   width: 100%;
